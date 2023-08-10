@@ -7,11 +7,8 @@
  */
 
 int main(void)
-{
-	char c;
-	c = "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
 
-	putchar(c);
+	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 
 	return (1);
 }
