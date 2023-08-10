@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * using puts function
- * Return: 0(success)
+ * Return: 0
+ * 
  */
 
 int main(void)
