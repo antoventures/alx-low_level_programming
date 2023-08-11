@@ -6,11 +6,14 @@
 
 int main(void)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < 10; i++)
-		putchar(i);
-		putchar('\n');
+	while (i < 10)
+	{
+	putchar(i);
+	i++;
+	putchar('\n');
+	}
 
 return (0);
 }
