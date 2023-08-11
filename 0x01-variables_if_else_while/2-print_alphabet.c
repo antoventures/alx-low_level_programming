@@ -9,6 +9,7 @@ int main(void)
 	alpha ='a';
 	while(alpha<='z')
 	{
-		putchar(alpha"\n");
+		putchar(alpha);
+		putchar('\n');
 	}
 }
