@@ -10,6 +10,7 @@
 int main(void)
 {
 	char abz;
+
 	abz = 'a';
 
 	for (abz = 'a'; abz <= 'z'; abz++)
