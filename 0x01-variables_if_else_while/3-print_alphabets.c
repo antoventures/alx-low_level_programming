@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  *
  * main - entry
@@ -8,13 +10,13 @@
 
 int main(void)
 {
-	char abz,ABZ;
+	char abz;
 	abz = 'a';
 
 	for(abz='a';abz<='z';abz++)
 		putchar(abz);
-	for(ABZ='A';ABZ<='Z';ABZ++)
-		putchar(ABZ);
+	for(abz='A';abz<='Z';abz++)
+		putchar(abz);
 	putchar('\n');
 
 	return (0);
