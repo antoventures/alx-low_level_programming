@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*main - entry */
+/**
+ * main - entry
+ * Return: 0 - success
+ */
+
 int main(void)
 {
 	int n, l;
