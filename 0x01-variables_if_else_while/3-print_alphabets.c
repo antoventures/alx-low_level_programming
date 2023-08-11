@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *
- * main - entry
+ * main - entry point
  *
  * Return: 0 for success
  */
@@ -15,6 +14,7 @@ int main(void)
 
 	for (abz = 'a'; abz <= 'z'; abz++)
 		putchar(abz);
+
 	for (abz = 'A'; abz <= 'Z'; abz++)
 		putchar(abz);
 	putchar('\n');
